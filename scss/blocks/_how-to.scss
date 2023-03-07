@@ -1,0 +1,83 @@
+.how-to {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 100px;
+  border-bottom: 1px solid #e5e5e5;
+  h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1d2130;
+    padding-bottom: 24px;
+  }
+  p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+  }
+
+  &__content {
+    & p:last-child {
+      padding-top: 30px;
+    }
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      padding-top: 24px;
+    }
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      gap: 50px;
+      li {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #1d2130;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+    }
+  }
+}
+
+#li-active {
+  border-bottom: 2px solid #70c174;
+}
+
+.how-to-donation {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    max-width: 374px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  p {
+    max-width: 350px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+  }
+}

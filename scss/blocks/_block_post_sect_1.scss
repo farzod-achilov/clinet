@@ -1,0 +1,42 @@
+.block_post-sect-1 {
+  padding-top: 100px;
+  .block_post-span {
+    text-align: center;
+
+    span {
+      font-size: 15px;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    position: relative;
+    left: 320px;
+    width: 580px;
+    top: 23px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: $color-primary-black;
+    line-height: 41px;
+  }
+
+  p {
+    text-align: center;
+    top: 50px;
+    left: 10px;
+    position: relative;
+    font-size: 14px;
+    color: $color-primary-p;
+  }
+
+  .bg-img {
+    width: 1280px;
+    height: 700px;
+    position: relative;
+    left: -40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/Block_post_read_more_img.png);
+  }
+}

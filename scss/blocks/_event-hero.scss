@@ -1,0 +1,38 @@
+.data-box {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.event--header {
+  background-color: #eff7f2;
+}
+
+.data-box-container {
+  background-color: #eff7f2;
+}
+.title-data {
+  text-align: center;
+  width: 768px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  color: #1d2130;
+  margin-bottom: 48px;
+}
+
+.data-info {
+  display: flex;
+  align-items: center;
+  gap: 77.6px;
+  & span {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
