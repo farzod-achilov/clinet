@@ -1010,6 +1010,10 @@ body {
   line-height: 160%;
   color: #525560;
 }
+.about-us__events-section {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
 .about-us__events-section-header {
   display: flex;
   align-items: center;
