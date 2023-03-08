@@ -40,4 +40,10 @@
     width: 290px;
     margin-top: 8px;
   }
+  &-content {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
